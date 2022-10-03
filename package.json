@@ -1,0 +1,17 @@
+{
+    "name": "ftmon",
+    "version": "1.0.0",
+    "scripts": {
+        "dev:image": "babel-node src/generator/image.js"
+    },
+    "repository": "https://github.com/bluepaun/ftmon.git",
+    "author": "bluepaun <bluepaun@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.19.3",
+        "@babel/node": "^7.19.1",
+        "@babel/preset-env": "^7.19.3",
+        "canvas": "^2.10.1"
+    }
+}
